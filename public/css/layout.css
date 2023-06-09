@@ -37,7 +37,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/background.gif) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -68,6 +68,7 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
+
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
    color: #A8A8A8;
@@ -240,7 +241,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #mission {
-   background: #fff;
+   background: #e7d2f1;
    padding-top: 50px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -271,18 +272,25 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 1px solid #E8E8E8;
 } */
 #mission .info {
-   font: 20px/34px 'librebaskerville-italic', serif;
+   font: 20px/34px 'aleoregular', serif;
    color: #6E7881;
    margin-bottom: 18px;
    margin-top: 9px;
    text-align:justify;
+}
+#mission .infocenter {
+   font: 20px/34px 'aleoregular', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+   text-align:center;
 }
 #mission .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
 #mission .date {
-   font: 15px/24px 'opensans-regular', sans-serif;
+   font: 15px/24px 'aleoregular', sans-serif;
    margin-top: 6px;
 }
 
@@ -423,18 +431,29 @@ ul#nav li.current a { color: #F06000; }
 /* e. Portfolio Section
 /* ------------------------------------------------------------------ */
 
-.portfolio-item-meta p {
+.portfolio-item-meta {
    font: 13px/15px 'opensans', sans-serif;
 }
 .portfolio-item .portfolio-item-meta h5 {
    font: 13px/15px 'opensans-bold', sans-serif;
 }
 
+#portfolio p {
+   font: 13px/15px 'aleoregular', sans-serif;
+}
+
+#portfolio h4 {
+   font: 20px/25px 'aleobold', sans-serif;
+}
+
 #portfolio {
+   /*background: #ebeeee;*/
    background: #ebeeee;
    padding-top: 50px;
    /* padding-bottom: 25px; */
 }
+
+/*
 #portfolio h1 {
    font: 26px/36px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
@@ -442,7 +461,19 @@ ul#nav li.current a { color: #F06000; }
    text-align: center;
    margin-bottom: 48px;
    color: #676262;
+}*/
+
+#portfolio h1 {
+   font: 30px/35px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
 }
+#portfolio h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 2px;
+}
+
 
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
@@ -617,9 +648,14 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 25px;
 }
 
+#alumni h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 2px;
+}
+
 #alumni .ant-carousel .slick-slide {
    text-align: center;
-   height: 160px;
+   /* height: 160px; */
    line-height: 160px;
    /* background: #364d79; */
    background: white;
@@ -875,6 +911,34 @@ ul#nav li.current a { color: #F06000; }
 /* e3. timeline Section
 /* ------------------------------------------------------------------ */
 
+/* Responsive iFrame (for Google Calendar) */
+
+.responsiveCal {
+   position: relative;
+   padding-bottom: 56.25%;
+   padding-top: 30px;
+   height: 0;
+   overflow: hidden;
+}
+
+.responsiveCal iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+@media all and (min-width: 768px) {
+      .deskContent {display:block;}
+      .phoneContent {display:none;}
+}
+
+@media all and (max-width: 767px) {
+      .deskContent {display:none;}
+      .phoneContent {display:block;}
+}
+
 #timeline {
    background: #f7f8ff;
    padding-top: 50px;
@@ -1049,7 +1113,7 @@ ul#nav li.current a { color: #F06000; }
 #photos {
    background: #ebeeee;
    padding-top: 50px;
-   /* padding-bottom: 25px; */
+   padding-bottom: 25px;
 }
 #photos h1 {
    font: 26px/36px 'opensans-semibold', sans-serif;
@@ -1058,6 +1122,22 @@ ul#nav li.current a { color: #F06000; }
    text-align: center;
    margin-bottom: 48px;
    color: #676262;
+}
+
+#photos .center {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 15px;
+   width: 10%;
+}
+
+#photos .card-border {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 10%;
+   width: 80%;
 }
 
 /* photos Content */

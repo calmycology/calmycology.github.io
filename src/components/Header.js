@@ -5,14 +5,14 @@ export default class Header extends Component {
   componentDidMount() {
   	// If you want to pass more options as props, simply add
     // your desired props to this destructuring assignment.
-    const strings  = ['Cornell Quant Research','Deep/Statistical Learning', 'Quantitative Finance', 'Quant Medical Bio Science', '--.- ..- .- -. - .. - .- - .. ...- .'];
+    const strings  = ['Mycology Club at Berkeley'];
     // You can pass other options here, such as typing speed, back speed, etc. Check offical css.
     const options = {
     	strings: strings,
       typeSpeed: 50,
       backSpeed: 80,
       loop: true,
-      loopCount: Infinity
+      loopCount: 1
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);
@@ -34,13 +34,10 @@ export default class Header extends Component {
           <a className="mobile-btn" href="#nav-wrap-close" title="Hide navigation">Hide navigation</a>
           <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-            <li><a className="smoothscroll" href="#mission">Mission</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Work</a></li>
-            <li><a className="smoothscroll" href="#photos">Team</a></li>
-            <li><a className="smoothscroll" href="#timeline">Timeline</a></li>
-            <li id='testimonials_li'><a className="smoothscroll" href="#testimonials">Words</a></li>
-            <li><a className="smoothscroll" href="#cooperations">Cooperators</a></li>
-            <li><a className="smoothscroll" href="#contact">Contact</a></li>
+            <li><a className="smoothscroll" href="#portfolio">How to Join</a></li>
+            <li><a className="smoothscroll" href="#photos">Who We Are</a></li>
+            <li><a className="smoothscroll" href="#alumni">Photos</a></li>
+            <li><a className="smoothscroll" href="#timeline">Calendar</a></li>
           </ul>
         </nav>
 
@@ -54,7 +51,7 @@ export default class Header extends Component {
                   />
                 </h1>
               </div>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}> 
+               <h3 style={{color:'#fff', fontFamily:'aleoregular '}}> 
                 {webData.role} 
                </h3>
                {webData.roleDescription}

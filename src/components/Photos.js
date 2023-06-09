@@ -1,87 +1,59 @@
 import React, { Component } from "react";
-import { Card, Row, Col} from 'antd';
+import { Avatar, Card, Row, Col} from 'antd';
 
 const { Meta } = Card;
 
 export default class photos extends Component {
   render() {
       return (
-        <section id="photos" style={{ background: 'white' }}>
+        <section id="photos" style={{ background: '#d5f0db' }}>
           <div className="row" >
             <div className="twelve columns" >
-            <h1>Team</h1>
-              <Row>
-                <Col sm={4} md={4} lg={4}></Col>
-                <Col xs={12} sm={8} md={8} lg={8}>
-                  <Card 
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo1.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="Cornell"
-                    description="Engineering phddddd testing the length"
-                  />
-                  </Card>
-                </Col>
-                <Col xs={12} sm={8} md={8} lg={8}>                  <Card
-                    hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
-                    bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
-                  >
-                  <Meta style={{ fontSize: '15px' }}
-                    title="Upenn"
-                    description="CIS"
-                  />
-                  </Card>
-                </Col>
-              </Row>
+              <img class="center" src="images/placeholder.png"></img>
+              <h1>What is Mycology Club at Berkeley?</h1>
               <Row>
                 <Col xs={12} sm={8} md={8} lg={8}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '90%', marginTop: '15px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img class="card-border" alt="example" src="images/funpic1.jpg" />}
                   >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="UMich"
-                    description="Good"
+                  <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
+                    title="The Amazing Staff"
+                    description="Really cool and awesome people at the staff :). We have experienced people working in the Krasilava lab and the mushroom lab who have done research."
                   />
                   </Card>
                 </Col>
                 <Col xs={12} sm={8} md={8} lg={8}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '90%', marginTop: '15px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo3.jpg" />}
+                    cover={<img class="card-border" alt="example" src="images/funpic2.jpg" />}
                   >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="MIT"
-                    description="Best"
+                  <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
+                    title="Community"
+                    description="The people we attract are super cool and lovely! Come hang out with our community."
                   />
                   </Card>
                 </Col>
                 <Col xs={12} sm={8} md={8} lg={8}>
                   <Card
                     hoverable={false}
-                    style={{ width: '50%', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '90%', marginTop: '15px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/photo2.jpg" />}
+                    cover={<img class="card-border" alt="example" src="images/funpic3.png" />}
                   >
-                  <Meta style={{ fontSize: '15px'}}
-                    title="Caltech"
-                    description="Second"
+                  <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
+                    title="Fun Meetups"
+                    description="We have meetings where you can check the microscopy of different fungi, give primers and fun workshops on fungi, as well as host talks and conferences on cool new fungi-related research!"
                   />
                   </Card>
                 </Col>
               </Row>
             </div>
           </div>
-          <hr/>
         </section>
       )
   }

@@ -27,9 +27,9 @@ export default class Footer extends Component {
           </a>
         </div>
         <div>
-        <a href='https://www.linkedin.com/in/y-yan'>&copy;</a>2019 Cornell Quant Club&nbsp;|&nbsp; All right reserved.
+        Made with love in 2023.
          <br></br>
-         Cornell University, Ithaca, NY
+            University of California, Berkeley
         </div>
       </div>
     </footer>

@@ -12,10 +12,13 @@ export default  class Mission extends Component {
                   return(
                     <div key={item.specialization} className="row item">
                        <div align='center' className="twelve columns">
-                       <h1><span>Mission</span></h1>
+                       <h1><span>Mycology Club at Berkeley</span></h1>
                           <br></br>
                           <p className="info">
                             {item.specialization}
+                          </p>
+                          <p className="infocenter">
+                            <a href="https://discord.gg/dm3TMtPf2y">{"Join our discord here!"}</a>
                           </p>
                        </div>
                     </div>

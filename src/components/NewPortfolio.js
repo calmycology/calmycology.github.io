@@ -28,31 +28,25 @@ export default class Porfolio extends Component {
 			<section id="portfolio" style={{ background: '#fafbff'}}>
 				<div className="row">
 					<div className="twelve columns" >
-						<h1>Current Work</h1>
+						<h1><span>How to Join</span></h1>
 							<List
 								itemLayout="vertical"
 								size="default"
-								pagination={{
-									onChange: (page) => {
-											console.log(page);
-									},
-									pageSize: 3,
-								}}
+								
 								dataSource={listData}
 								// footer={<div><b>ant design</b> footer part</div>}
 								renderItem={item => (
 									<List.Item
 										key={item.title}
 										// actions={[<IconText type="star-o" text="156" />, <IconText type="like-o" text="156" />, <IconText type="message" text="2" />]}
-										extra={<img id='newportfolio_' width={400} alt="logo" src={item.imgurl} />}
+										extra={<a href={item.href}><img id='newportfolio_' width={90} alt="logo" src={item.imgurl} /></a>}
 										style={{ textAlign: "justify" }}
 									>
 									<List.Item.Meta
 										// avatar={<Avatar src={item.avatar} />}
-										title={<a href={item.href}>{item.title}</a>}
-										description={item.description}
+										title={<h4><a href={item.href}>{item.title}</a></h4>}
+										description={<p>{item.description}</p>}
 									/>
-										{item.content}
 									</List.Item>
 								)}
 							/>
