@@ -1,3 +1,12 @@
+# For those who want to update the website and make changes in the future
+
+1. Ask me (@iachang) for repo access
+2. Clone this repo at the `main` branch
+3. Make whatever changes you want to make, and commit the changes to the `main` branch
+4. Follow steps 3, 6-8 of: https://github.com/gitname/react-gh-pages
+- Note: you only need to follow step 7 if you already did steps 3, 6-8 beforehand.
+ 
+---
 # Update for an alternative displaying style
 Portfolio.js and PastPortfolio.js provide one way for you to display the data which you can check the demos at the buttom of the README.md, denoted as 'Style-1'.   
 NewPortfolio.js and NewPastPortfolio.js provide the other way for displaying which you can check 'Style-2' at Demo section.  
