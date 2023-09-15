@@ -20,8 +20,8 @@ export default class photos extends Component {
                     cover={<img class="card-border" alt="example" src="images/funpic1.jpg" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
-                    title="The Amazing Staff"
-                    description="Really cool and awesome people at the staff :). We have experienced people working in the Krasilava lab and the mushroom lab who have done research."
+                    title="Casual meetings: community building and co-learning."
+                    description="Casual meetings every first week of the month. Intended to foster individual scientific development and community building around mycology. Consists of outings around campus, microscopy, member presentations - for members that wish to present anything they have learned in the realm of mycology, arts, and journal clubs."
                   />
                   </Card>
                 </Col>
@@ -33,8 +33,8 @@ export default class photos extends Component {
                     cover={<img class="card-border" alt="example" src="images/funpic2.jpg" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
-                    title="Community"
-                    description="The people we attract are super cool and lovely! Come hang out with our community."
+                    title="Official meetings: connecting to the Mycological sciences."
+                    description="Official meetings every third week of the month. Consists of presentation of invited speakers from the wider mycological community and workshop of an invited workshop leader from the wider mycological community."
                   />
                   </Card>
                 </Col>
@@ -46,8 +46,8 @@ export default class photos extends Component {
                     cover={<img class="card-border" alt="example" src="images/funpic3.png" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
-                    title="Fun Meetups"
-                    description="We have meetings where you can check the microscopy of different fungi, give primers and fun workshops on fungi, as well as host talks and conferences on cool new fungi-related research!"
+                    title="Official outings and field trips: connection to the mycological world existing around you, societies and natural places in California."
+                    description="We heavily use the I-naturalist community, and have a Mendocino field trip at the end of the year!"
                   />
                   </Card>
                 </Col>
