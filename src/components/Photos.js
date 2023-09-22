@@ -21,7 +21,7 @@ export default class photos extends Component {
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
                     title="Casual meetings"
-                    description="We have casual meetings every first week of the month, which are intended to foster individual scientific development and community building around mycology. They consist of outings around campus, microscopy, member presentations - for members that wish to present anything they have learned in the realm of mycology, arts, and journal clubs."
+                    description="We have casual meetings several times per month, which are intended to foster individual scientific development and community building around mycology. They consist of outings around campus, microscopy, member presentations - for members that wish to present anything they have learned in the realm of mycology, arts, and journal clubs."
                   />
                   </Card>
                 </Col>
