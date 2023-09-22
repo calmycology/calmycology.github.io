@@ -18,7 +18,7 @@ export default class Alumni extends Component {
                     hoverable={false}
                     style={{ width: '800px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img alt="example" src="images/acrycia.jpg" />}
+                    cover={<img alt="example" src="images/arcyria.jpg" />}
                   >
                   <Meta style={{ fontFamily:"aleobold", fontSize: '15px'}}
                     title="Arcyria cinerea"
@@ -27,8 +27,8 @@ export default class Alumni extends Component {
               </Row>
             </div>
             <div>
-            <Row type="flex">  
-              <Card
+              <Row type="flex">  
+                  <Card
                     hoverable={false}
                     style={{ width: '432px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
@@ -38,10 +38,11 @@ export default class Alumni extends Component {
                     title="Lamproderma arcyrioides complex"
                   />
                   </Card>
-                  </Row>
-                  </div>
-
-            <div><Card
+              </Row>
+            </div>
+            <div>
+	      <Row type="flex">
+	          <Card
                     hoverable={false}
                     style={{ width: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
@@ -50,7 +51,51 @@ export default class Alumni extends Component {
                   <Meta style={{ fontFamily:"aleobold", fontSize: '15px'}}
                     title="Guepiniopsis alpina"
                   />
-                  </Card></div>
+                  </Card>
+              </Row>
+	    </div>
+            <div>
+	      <Row type="flex">
+	          <Card
+                    hoverable={false}
+                    style={{ width: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    bordered={false}
+                    cover={<img alt="example" src="images/collybiopsis.jpg" />}
+                  >
+                  <Meta style={{ fontFamily:"aleobold", fontSize: '15px'}}
+                    title="Collybiopsis quercophila"
+                  />
+                  </Card>
+              </Row>
+	    </div>
+            <div>
+	      <Row type="flex">
+	          <Card
+                    hoverable={false}
+                    style={{ width: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    bordered={false}
+                    cover={<img alt="example" src="images/auriscalpium.jpg" />}
+                  >
+                  <Meta style={{ fontFamily:"aleobold", fontSize: '15px'}}
+                    title="Auriscalpium vulgare"
+                  />
+                  </Card>
+              </Row>
+	    </div>
+            <div>
+	      <Row type="flex">
+	          <Card
+                    hoverable={false}
+                    style={{ width: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    bordered={false}
+                    cover={<img alt="example" src="images/comatricha.jpg" />}
+                  >
+                  <Meta style={{ fontFamily:"aleobold", fontSize: '15px'}}
+                    title="Comatricha nigra"
+                  />
+                  </Card>
+              </Row>
+	    </div>
           </Carousel>
           </div>
         </div>

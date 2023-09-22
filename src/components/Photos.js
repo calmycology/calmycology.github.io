@@ -20,8 +20,8 @@ export default class photos extends Component {
                     cover={<img class="card-border" alt="example" src="images/funpic1.jpg" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
-                    title="Casual meetings"
-                    description="We have casual meetings several times per month, which are intended to foster individual scientific development and community building around mycology. They consist of outings around campus, microscopy, member presentations - for members that wish to present anything they have learned in the realm of mycology, arts, and journal clubs."
+                    title="Official Meetings"
+                    description="We have official meetings twice per month, which consist of a presentation or hands-on workshop given by a club member or guest from the wider mycological community."
                   />
                   </Card>
                 </Col>
@@ -33,8 +33,8 @@ export default class photos extends Component {
                     cover={<img class="card-border" alt="example" src="images/funpic2.jpg" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
-                    title="Official meetings"
-                    description="We have official meetings every third week of the month, which consist of a presentation of invited speakers from the wider mycological community and a workshop of an invited workshop leader from the wider mycological community."
+                    title="Casual Meetings"
+                    description="We host casual meetings during the main mushroom season which are intended to foster individual scientific development and community building around mycology. They consist of outings around campus, microscopy, and mini-presentations for members that wish to share anything they have learned in the realm of mycology, arts, and journal clubs."
                   />
                   </Card>
                 </Col>
@@ -46,8 +46,8 @@ export default class photos extends Component {
                     cover={<img class="card-border" alt="example" src="images/funpic3.png" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
-                    title="Official outings and field trips"
-                    description="We heavily use the I-naturalist community, and we have a Mendocino field trip at the end of the year!"
+                    title="Outings and Field Trips"
+                    description="We lead many trips in the East Bay and beyond to explore Californian mycodiversity, including an overnight foray in Mendocino at the end of the year! We also make use of the iNaturalist community as a space for members to catalogue & learn more about their finds."
                   />
                   </Card>
                 </Col>
