@@ -17,7 +17,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '90%', marginTop: '15px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img class="card-border" alt="example" src="images/funpic1.jpg" />}
+                    cover={<img class="card-border" alt="example" src="images/funpic1.png" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
                     title="Official Meetings"
@@ -30,7 +30,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '90%', marginTop: '15px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img class="card-border" alt="example" src="images/funpic2.jpg" />}
+                    cover={<img class="card-border" alt="example" src="images/funpic2.png" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
                     title="Casual Meetings"
@@ -43,7 +43,7 @@ export default class photos extends Component {
                     hoverable={false}
                     style={{ width: '90%', marginTop: '15px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
-                    cover={<img class="card-border" alt="example" src="images/funpic3.png" />}
+                    cover={<img class="card-border" alt="example" src="images/funpic3.jpg" />}
                   >
                   <Meta style={{ fontFamily: 'aleobold', fontSize: '15px'}}
                     title="Outings and Field Trips"
