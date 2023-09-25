@@ -16,7 +16,7 @@ export default class Alumni extends Component {
               <Row type="flex">  
                   <Card
                     hoverable={false}
-                    style={{ width: '1032px', height: '774px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '774px', height: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/arcyria.jpg" />}
                   >
@@ -30,7 +30,7 @@ export default class Alumni extends Component {
               <Row type="flex">  
                   <Card
                     hoverable={false}
-                    style={{ width: '580px', height: '774px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '435px', height: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/lamproderma.jpg" />}
                   >
@@ -44,7 +44,7 @@ export default class Alumni extends Component {
 	      <Row type="flex">
 	          <Card
                     hoverable={false}
-                    style={{ width: '774px', height: '774px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '580px', height: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/guepiniopsis.jpg" />}
                   >
@@ -58,7 +58,7 @@ export default class Alumni extends Component {
 	      <Row type="flex">
 	          <Card
                     hoverable={false}
-                    style={{ width: '580px', height: '774px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '435px', height: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/collybiopsis.jpg" />}
                   >
@@ -72,7 +72,7 @@ export default class Alumni extends Component {
 	      <Row type="flex">
 	          <Card
                     hoverable={false}
-                    style={{ width: '580px', height: '774px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '435px', height: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/auriscalpium.jpg" />}
                   >
@@ -86,7 +86,7 @@ export default class Alumni extends Component {
 	      <Row type="flex">
 	          <Card
                     hoverable={false}
-                    style={{ width: '774px', height: '774px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
+                    style={{ width: '580px', height: '580px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center'}}
                     bordered={false}
                     cover={<img alt="example" src="images/comatricha.jpg" />}
                   >
